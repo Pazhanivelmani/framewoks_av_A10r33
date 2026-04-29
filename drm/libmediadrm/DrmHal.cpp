@@ -71,6 +71,7 @@ namespace {
 // in the MediaDrm API.
 constexpr char kPropertyDeviceUniqueId[] = "deviceUniqueId";
 constexpr char kEqualsSign[] = "=";
+constexpr char mEqualsSign[] = "=";
 
 template<typename T>
 std::string toBase64StringNoPad(const T* data, size_t size) {
